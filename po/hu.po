@@ -1,138 +1,141 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Hungarian translations for espeak-qtgui package.
+# Copyright (C) 2017 THE espeak-qtgui'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the espeak-qtgui package.
 #
-#, fuzzy
+# Automatically generated, 2017.
+# Miklos Horvath <hmiki@blackpantheros.eu>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: espeak-qtgui 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-06 21:27+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2017-05-06 23:42+0100\n"
+"Last-Translator: Miklos Horvath <hmiki@blackpantheros.eu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=US-ASCII\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: espeak_qtgui/engines/espeak.py:19
 msgid "Afrikaans"
-msgstr ""
+msgstr "Afrikaans"
 
 #: espeak_qtgui/engines/espeak.py:20
 msgid "Bosnian"
-msgstr ""
+msgstr "Bosny?k"
 
 #: espeak_qtgui/engines/espeak.py:21
 msgid "Catalan"
-msgstr ""
+msgstr "Katal?n"
 
 #: espeak_qtgui/engines/espeak.py:22
 msgid "Czech"
-msgstr ""
+msgstr "Cseh"
 
 #: espeak_qtgui/engines/espeak.py:23
 msgid "Danish"
-msgstr ""
+msgstr "D?n"
 
 #: espeak_qtgui/engines/espeak.py:24
 msgid "German"
-msgstr ""
+msgstr "N?met"
 
 #: espeak_qtgui/engines/espeak.py:25
 msgid "Greek"
-msgstr ""
+msgstr "G?r?g"
 
 #: espeak_qtgui/engines/espeak.py:26
 msgid "English"
-msgstr ""
+msgstr "Angol"
 
 #: espeak_qtgui/engines/espeak.py:27
 msgid "Esperanto"
-msgstr ""
+msgstr "Eszperant?"
 
 #: espeak_qtgui/engines/espeak.py:28
 msgid "Spanish"
-msgstr ""
+msgstr "Spanyol"
 
 #: espeak_qtgui/engines/espeak.py:29
 msgid "Spanish - Latin-America"
-msgstr ""
+msgstr "Spanyol - D?l-Amerika"
 
 #: espeak_qtgui/engines/espeak.py:30
 msgid "Finnish"
-msgstr ""
+msgstr "Finn"
 
 #: espeak_qtgui/engines/espeak.py:31
 msgid "French"
-msgstr ""
+msgstr "Francia"
 
 #: espeak_qtgui/engines/espeak.py:32
 msgid "Croatian"
-msgstr ""
+msgstr "Horv?t"
 
 #: espeak_qtgui/engines/espeak.py:33
 msgid "Hungarian"
-msgstr ""
+msgstr "Magyar"
 
 #: espeak_qtgui/engines/espeak.py:34
 msgid "Italian"
-msgstr ""
+msgstr "Olasz"
 
 #: espeak_qtgui/engines/espeak.py:35
 msgid "Kannada"
-msgstr ""
+msgstr "Kannada"
 
 #: espeak_qtgui/engines/espeak.py:36
 msgid "Kurdish"
-msgstr ""
+msgstr "Kurd"
 
 #: espeak_qtgui/engines/espeak.py:37
 msgid "Latvian"
-msgstr ""
+msgstr "Litv?n"
 
 #: espeak_qtgui/engines/espeak.py:38
 msgid "Dutch"
-msgstr ""
+msgstr "Holland"
 
 #: espeak_qtgui/engines/espeak.py:39
 msgid "Polish"
-msgstr ""
+msgstr "Lengyel"
 
 #: espeak_qtgui/engines/espeak.py:40
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portug?l (Brazil)"
 
 #: espeak_qtgui/engines/espeak.py:41
 msgid "Portuguese (European)"
-msgstr ""
+msgstr "Portug?l (Eur?pai)"
 
 #: espeak_qtgui/engines/espeak.py:42
 msgid "Romanian"
-msgstr ""
+msgstr "Rom?n"
 
 #: espeak_qtgui/engines/espeak.py:43
 msgid "Slovak"
-msgstr ""
+msgstr "Szlov?k"
 
 #: espeak_qtgui/engines/espeak.py:44
 msgid "Serbian"
-msgstr ""
+msgstr "Szerb"
 
 #: espeak_qtgui/engines/espeak.py:45
 msgid "Swedish"
-msgstr ""
+msgstr "Sv?d"
 
 #: espeak_qtgui/engines/espeak.py:46
 msgid "Swahili"
-msgstr ""
+msgstr "Szuah?li"
 
 #: espeak_qtgui/engines/espeak.py:47
 msgid "Tamil"
-msgstr ""
+msgstr "Tamil"
 
 #: espeak_qtgui/engines/espeak.py:48
 msgid "Turkish"
-msgstr ""
+msgstr "T?r?k"
+

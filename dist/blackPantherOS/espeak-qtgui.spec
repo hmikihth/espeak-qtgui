@@ -32,6 +32,7 @@ A simple Qt5 Gui for the Espeak.
 %python3_sitelib/%pypi_name/*
 %python3_sitelib/%{pypi_name}*egg-info
 %{_datadir}/applications/*.desktop
+%{_datadir}/locale/*
 %{_iconsdir}/%{name}.png
 %{_miconsdir}/%{name}.png
 %{_liconsdir}/%{name}.png

@@ -12,4 +12,4 @@ EXTRACTRC=extractrc
 XGETTEXT=xgettext
 podir=$(pwd)
 
-$XGETTEXT `find . -name \*.ui -o -name \*gui -o -name \*.py` --keyword=_ --language=Python -o $podir/messages.pot
+$XGETTEXT `find . -name \*.ui -o -name \*.py` --keyword=_ --language=Python -o $podir/messages.pot
