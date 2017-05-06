@@ -54,10 +54,11 @@ class  MainWindow(QMainWindow, Ui_MainWindow):
         
     def show_about_dialog(self):
         import subprocess
-        subprocess.Popen(['pydialog', '--msgbox', 
-                          '''"Written by <b>Miklos Horvath</b> <br/><br/>
+        subprocess.Popen(['pydialog', '--title', 'Espeak-Gui',  '--msgbox', 
+                          '''<img src="/usr/share/icons/espeak-qtgui.png"><br><br>
+                          <big>Espeak Qt5 Gui</big><br>Written by <b>Miklos Horvath</b> <br/><br/>
                           <a href="mailto:hmiki@blackpantheros.eu">Email: hmiki@blackpantheros.eu</a><br/><br/> 
-                          <b>blackPanther Europe</b>"'''])
+                          <b>blackPanther Europe</b><br><a href="http://www.blackpanther.hu">www.blackpanther.hu</a>'''])
         
     def load_settings(self):
         self.settings.load()
