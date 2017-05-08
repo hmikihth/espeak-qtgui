@@ -69,13 +69,19 @@ class Engine():
         return self.sliders
  
     def play(self, text, language, pitch, volume, speed, delay, record=None):
-        arguments = ["espeak", "-v", language, "-p", str(pitch), "-a", str(volume), "-s", str(speed), "-g", str(delay)]
+        arguments = ["espeak", "-v", language, "-p", str(pitch), "-a", str(volume), "-s", str(speed), "-g", str(delay), "--stdout"]
         if record != None:
             arguments += ["-w", record]
-        self.process = subprocess.Popen(arguments, stdin=subprocess.PIPE)
+        self.process = subprocess.Popen(arguments, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+        self.pulse = subprocess.Popen(['paplay'], stdin=self.process.stdout)
+        self.pulse.communicate()
+        
         self.process.stdin.write(text.encode("utf-8"))
         self.process.stdin.flush()
-        self.process.stdin.close()        
+        self.process.stdin.close()   
+        self.process.stdout.flush()
+        self.process.stdout.close()
+
     
     def stop(self):
         self.process.kill()
