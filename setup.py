@@ -38,7 +38,7 @@ class InstallData(install_data):
                 if not os.path.exists(po):
                     os.system('msginit --no-translator -i messages.pot -o {} -l {}.UTF-8'.format(po, lang))
                     
-                mo = os.path.join('build', 'share', 'locale', lang, 'LC_MESSAGES', 'espeak_qtgui.mo')
+                mo = os.path.join('build', 'share', 'locale', lang, 'LC_MESSAGES', 'espeak-qtgui.mo')
                 directory = os.path.dirname(mo)                
 
                 if not os.path.exists(directory):
@@ -48,7 +48,7 @@ class InstallData(install_data):
                     cmd = 'msgfmt -o {} {}'.format(mo, po)
                     os.system(cmd)
                 
-                dest = os.path.dirname(os.path.join('share', 'locale', lang, 'LC_MESSAGES', 'espeak_qtgui.mo'))
+                dest = os.path.dirname(os.path.join('share', 'locale', lang, 'LC_MESSAGES', 'espeak-qtgui.mo'))
                 data_files.append((dest, [mo]))
             
         return data_files

@@ -1,141 +1,274 @@
-# Hungarian translations for espeak-qtgui package.
-# Copyright (C) 2017 THE espeak-qtgui'S COPYRIGHT HOLDER
+# Qt5 GUI for Espeak.
+# Copyright (C) 2017 blackPanther Europe
 # This file is distributed under the same license as the espeak-qtgui package.
-#
-# Automatically generated, 2017.
 # Miklos Horvath <hmiki@blackpantheros.eu>, 2017.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: espeak-qtgui 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-06 21:27+0200\n"
-"PO-Revision-Date: 2017-05-06 23:42+0100\n"
+"Project-Id-Version: espeak-qtgui 1.1\n"
+"Report-Msgid-Bugs-To: hmiki@blackpantheros.eu\n"
+"POT-Creation-Date: 2017-07-03 23:41+0200\n"
+"PO-Revision-Date: 2017-07-04 00:02+0200\n"
 "Last-Translator: Miklos Horvath <hmiki@blackpantheros.eu>\n"
-"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language-Team: Hungarian\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=US-ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 2.0\n"
 
-#: espeak_qtgui/engines/espeak.py:19
+#: espeak_qtgui/engines/espeak.py:55
 msgid "Afrikaans"
-msgstr "Afrikaans"
+msgstr ""
 
-#: espeak_qtgui/engines/espeak.py:20
+#: espeak_qtgui/engines/espeak.py:56
 msgid "Bosnian"
-msgstr "Bosny?k"
+msgstr "Bosnyák"
 
-#: espeak_qtgui/engines/espeak.py:21
+#: espeak_qtgui/engines/espeak.py:57
 msgid "Catalan"
-msgstr "Katal?n"
+msgstr "Katalán"
 
-#: espeak_qtgui/engines/espeak.py:22
+#: espeak_qtgui/engines/espeak.py:58
 msgid "Czech"
 msgstr "Cseh"
 
-#: espeak_qtgui/engines/espeak.py:23
+#: espeak_qtgui/engines/espeak.py:59
 msgid "Danish"
-msgstr "D?n"
+msgstr "Dán"
 
-#: espeak_qtgui/engines/espeak.py:24
+#: espeak_qtgui/engines/espeak.py:60
 msgid "German"
-msgstr "N?met"
+msgstr "Német"
 
-#: espeak_qtgui/engines/espeak.py:25
+#: espeak_qtgui/engines/espeak.py:61
 msgid "Greek"
-msgstr "G?r?g"
+msgstr "Görög"
 
-#: espeak_qtgui/engines/espeak.py:26
+#: espeak_qtgui/engines/espeak.py:62 espeak_qtgui/ui/gui.py:248
 msgid "English"
 msgstr "Angol"
 
-#: espeak_qtgui/engines/espeak.py:27
+#: espeak_qtgui/engines/espeak.py:63
 msgid "Esperanto"
-msgstr "Eszperant?"
+msgstr "Eszperantó"
 
-#: espeak_qtgui/engines/espeak.py:28
+#: espeak_qtgui/engines/espeak.py:64
 msgid "Spanish"
 msgstr "Spanyol"
 
-#: espeak_qtgui/engines/espeak.py:29
+#: espeak_qtgui/engines/espeak.py:65
 msgid "Spanish - Latin-America"
-msgstr "Spanyol - D?l-Amerika"
+msgstr "Spanyol - Latin-amerika"
 
-#: espeak_qtgui/engines/espeak.py:30
+#: espeak_qtgui/engines/espeak.py:66
 msgid "Finnish"
 msgstr "Finn"
 
-#: espeak_qtgui/engines/espeak.py:31
+#: espeak_qtgui/engines/espeak.py:67
 msgid "French"
 msgstr "Francia"
 
-#: espeak_qtgui/engines/espeak.py:32
+#: espeak_qtgui/engines/espeak.py:68
 msgid "Croatian"
-msgstr "Horv?t"
+msgstr "Horvát"
 
-#: espeak_qtgui/engines/espeak.py:33
+#: espeak_qtgui/engines/espeak.py:69 espeak_qtgui/ui/gui.py:247
 msgid "Hungarian"
 msgstr "Magyar"
 
-#: espeak_qtgui/engines/espeak.py:34
+#: espeak_qtgui/engines/espeak.py:70
 msgid "Italian"
 msgstr "Olasz"
 
-#: espeak_qtgui/engines/espeak.py:35
+#: espeak_qtgui/engines/espeak.py:71
 msgid "Kannada"
 msgstr "Kannada"
 
-#: espeak_qtgui/engines/espeak.py:36
+#: espeak_qtgui/engines/espeak.py:72
 msgid "Kurdish"
 msgstr "Kurd"
 
-#: espeak_qtgui/engines/espeak.py:37
+#: espeak_qtgui/engines/espeak.py:73
 msgid "Latvian"
-msgstr "Litv?n"
+msgstr "Lett"
 
-#: espeak_qtgui/engines/espeak.py:38
+#: espeak_qtgui/engines/espeak.py:74
 msgid "Dutch"
 msgstr "Holland"
 
-#: espeak_qtgui/engines/espeak.py:39
+#: espeak_qtgui/engines/espeak.py:75
 msgid "Polish"
 msgstr "Lengyel"
 
-#: espeak_qtgui/engines/espeak.py:40
+#: espeak_qtgui/engines/espeak.py:76
 msgid "Portuguese (Brazil)"
-msgstr "Portug?l (Brazil)"
+msgstr "Portugál (Brazil)"
 
-#: espeak_qtgui/engines/espeak.py:41
+#: espeak_qtgui/engines/espeak.py:77
 msgid "Portuguese (European)"
-msgstr "Portug?l (Eur?pai)"
+msgstr "Portugál (Európai)"
 
-#: espeak_qtgui/engines/espeak.py:42
+#: espeak_qtgui/engines/espeak.py:78
 msgid "Romanian"
-msgstr "Rom?n"
+msgstr "Román"
 
-#: espeak_qtgui/engines/espeak.py:43
+#: espeak_qtgui/engines/espeak.py:79
 msgid "Slovak"
-msgstr "Szlov?k"
+msgstr "Szlovák"
 
-#: espeak_qtgui/engines/espeak.py:44
+#: espeak_qtgui/engines/espeak.py:80
 msgid "Serbian"
 msgstr "Szerb"
 
-#: espeak_qtgui/engines/espeak.py:45
+#: espeak_qtgui/engines/espeak.py:81
 msgid "Swedish"
-msgstr "Sv?d"
+msgstr "Svéd"
 
-#: espeak_qtgui/engines/espeak.py:46
+#: espeak_qtgui/engines/espeak.py:82
 msgid "Swahili"
-msgstr "Szuah?li"
+msgstr "Szuahéli"
 
-#: espeak_qtgui/engines/espeak.py:47
+#: espeak_qtgui/engines/espeak.py:83
 msgid "Tamil"
 msgstr "Tamil"
 
-#: espeak_qtgui/engines/espeak.py:48
+#: espeak_qtgui/engines/espeak.py:84
 msgid "Turkish"
-msgstr "T?r?k"
+msgstr "Török"
 
+#: espeak_qtgui/ui/gui.py:236
+msgid "espeak-qtgui"
+msgstr "espeak-qtgui"
+
+#: espeak_qtgui/ui/gui.py:237 espeak_qtgui/ui/gui.py:263
+msgid "New"
+msgstr "Új"
+
+#: espeak_qtgui/ui/gui.py:238 espeak_qtgui/ui/gui.py:265
+msgid "Open"
+msgstr "Megnyitás"
+
+#: espeak_qtgui/ui/gui.py:239 espeak_qtgui/ui/gui.py:267
+msgid "Save As"
+msgstr "Mentés másként"
+
+#: espeak_qtgui/ui/gui.py:240 espeak_qtgui/ui/gui.py:275
+msgid "Record"
+msgstr "Felvétel"
+
+#: espeak_qtgui/ui/gui.py:241 espeak_qtgui/ui/gui.py:277
+msgid "Revert"
+msgstr "Visszavonás"
+
+#: espeak_qtgui/ui/gui.py:242
+msgid "Insert text to play"
+msgstr "Írj be szöveget a lejátszáshoz"
+
+#: espeak_qtgui/ui/gui.py:243
+msgid "Base settings"
+msgstr "Alapbeállítások"
+
+#: espeak_qtgui/ui/gui.py:244 espeak_qtgui/ui/gui.py:271
+msgid "Play"
+msgstr "Lejátszás"
+
+#: espeak_qtgui/ui/gui.py:245 espeak_qtgui/ui/gui.py:273
+msgid "Stop"
+msgstr "Állj"
+
+#: espeak_qtgui/ui/gui.py:246
+msgid "Language"
+msgstr "Nyelv"
+
+#: espeak_qtgui/ui/gui.py:249
+msgid "Voice"
+msgstr "Hang"
+
+#: espeak_qtgui/ui/gui.py:250
+msgid "&Male"
+msgstr "Férfi"
+
+#: espeak_qtgui/ui/gui.py:251
+msgid "Fe&male"
+msgstr "Nő"
+
+#: espeak_qtgui/ui/gui.py:252
+msgid "Variant:"
+msgstr "Változat"
+
+#: espeak_qtgui/ui/gui.py:253
+msgid "Advanced settings"
+msgstr "Haladó beállítások"
+
+#: espeak_qtgui/ui/gui.py:254
+msgid "Pitch:"
+msgstr "Hangmagasság"
+
+#: espeak_qtgui/ui/gui.py:255
+msgid "Volume:"
+msgstr "Hangerő"
+
+#: espeak_qtgui/ui/gui.py:256
+msgid "Speed:"
+msgstr "Sebesség"
+
+#: espeak_qtgui/ui/gui.py:257
+msgid "Delay:"
+msgstr "Késleltetés:"
+
+#: espeak_qtgui/ui/gui.py:258
+msgid "F&ile"
+msgstr "F&ájl"
+
+#: espeak_qtgui/ui/gui.py:259
+msgid "E&dit"
+msgstr "Sz&erkesztés"
+
+#: espeak_qtgui/ui/gui.py:260
+msgid "He&lp"
+msgstr "Segítség"
+
+#: espeak_qtgui/ui/gui.py:261
+msgid "&Exit"
+msgstr "Kilépés"
+
+#: espeak_qtgui/ui/gui.py:262 espeak_qtgui/ui/gui.py:270
+msgid "Ctrl+Q"
+msgstr ""
+
+#: espeak_qtgui/ui/gui.py:264
+msgid "Ctrl+N"
+msgstr ""
+
+#: espeak_qtgui/ui/gui.py:266
+msgid "Ctrl+O"
+msgstr ""
+
+#: espeak_qtgui/ui/gui.py:268
+msgid "Ctrl+S"
+msgstr ""
+
+#: espeak_qtgui/ui/gui.py:269
+msgid "Quit"
+msgstr "Kilépés"
+
+#: espeak_qtgui/ui/gui.py:272
+msgid "Ctrl+P"
+msgstr ""
+
+#: espeak_qtgui/ui/gui.py:274
+msgid "Ctrl+K"
+msgstr ""
+
+#: espeak_qtgui/ui/gui.py:276
+msgid "Ctrl+R"
+msgstr ""
+
+#: espeak_qtgui/ui/gui.py:278
+msgid "Ctrl+Del"
+msgstr ""
+
+#: espeak_qtgui/ui/gui.py:279
+msgid "About"
+msgstr "Rólunk"
